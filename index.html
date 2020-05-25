@@ -20,6 +20,12 @@
        
     }
     
+    .toplinks {
+        font-size:0.8em;
+        text-decoration:underline;
+        margin:10px;
+        
+    }
     .greyback {background-color:rgb(227, 207, 227);
             width:95%;
             margin: auto ;
@@ -39,17 +45,32 @@
     font-weight:bold;
     }
     
-    .links { margin: 5px 200px;
+    .links { margin: 5px 38px;
         
     }
+    
+    #firstword: {
+        text-decoration:underline;
+    }
+    #mainmessage {
+        position:relative;
+        top:40px;
+        z-index:1;
+    }
+    
     
     #topbanner { 
         background-color: rgb(173, 66, 227);
-        text-decoration: underline;
         
     }
     
-    h1 {text-align: center;
+    h1 {text-align: left;
+    font-size:1.5em;
+    position:fixed;
+    width:100%;
+    top:0px;
+    z-index:2;
+
     }
     
     
@@ -67,16 +88,25 @@
         
     </head>
     <body>
-    <h1 id="topbanner">ChasingFitness</h1>
+    <h1 id="topbanner"> 
     
-    <p>Every day, millions of us wish to transform our bodies. We seek to lose fat to be active and healthier, gain muscle to become stronger, and more. No matter what, everybody is entitled to their own motivations and body goals. This website removes all of the clutter and confusion, boiling down the path for change into a few key aspects. The pillar of ChasingFitness is that <strong> losing muscle or fat</strong> is a result of a <strong> caloric deficit </strong> while <strong>gaining muscle or fat</strong> is a result of a <strong> caloric surplus. </strong> This simple law is key to unlcoking transformations. Manipulating the three areas below will allow control over your body's weight and fat; although the strategies are simple, you must still work hard and maintain dedication!</p> 
+    <span id="firstword"> ChasingFitness: </span> 
     
-    <ol> 
-        <li> <a href="#section1">Metabolic Rate </a></li>
-        <li> <a href="#section2">Diet</a> </li>
-        <li> <a href="#section3">Exercise</a> </li>
-        <li> <a href="#section4">Products</a> </li>
-    </ol>
+    <span class="toplinks"> <a href="#section1">Metabolic Rate</a> </span>
+    
+    <span class="toplinks"> <a href="#section2">Diet</a> </span>
+    
+    <span class="toplinks"> <a href="#section3">Exercise</a>
+    </span>
+    
+    <span class="toplinks"> <a href="#section4">Products</a> </span>
+    
+    
+    
+    </h1>
+    
+  <div id="mainmessage">  <p>Every day, millions of us wish to transform our bodies. We seek to lose fat to be active and healthier, gain muscle to become stronger, and more. No matter what, everybody is entitled to their own motivations and body goals. This website removes all of the clutter and confusion, boiling down the path for change into a few key aspects. The pillar of ChasingFitness is that <strong> losing muscle or fat</strong> is a result of a <strong> caloric deficit </strong> while <strong>gaining muscle or fat</strong> is a result of a <strong> caloric surplus. </strong> This simple law is key to unlcoking transformations. Manipulating the three areas below will allow control over your body's weight and fat; although the strategies are simple, you must still work hard and maintain dedication!</p> 
+    
     
    <br> <img src="https://clipartix.com/wp-content/uploads/2016/05/Free-fitness-and-exercise-clipart-clip-art-pictures-graphics-2-3.jpg" width="200" height="200">
    
@@ -145,9 +175,7 @@
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/61-CLewCBPL._AC_SL1024_.jpg" width="150" height="150"> </a> </div>
 
-
-
-
+</div>
 </div>
     </body>
 </html>
